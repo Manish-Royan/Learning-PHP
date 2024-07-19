@@ -90,3 +90,52 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 
 * **Security Concerns**: If not handled properly, PHP code may be susceptible to security vulnerabilities, such as SQL injection and cross-site scripting (XSS). Developers need to be cautious and follow best practices to secure PHP applications.
 
+### What Do I Need?
+
+To install PHP, we will suggest you to install `AMP (Apache, MySQL, PHP)` software stack but use [XAMPP](https://www.apachefriends.org/download.html) **(Cross, Apache, MySQL, PHP, Perl)** for Cross Platform: It includes some other components too such as FileZilla, OpenSSL, Webalizer, Mercury Mail, etc. 
+
+
+### How to run PHP code?
+
+Generally, a PHP file contains`HTML` tags and some `PHP` scripting code. It is very easy to create a simple PHP example. To do so, create a file and write HTML tags + PHP code and save this file with *`.php`* extension.
+
+#### Syntax of PHP tag:
+```php
+<?php   
+//your code here  
+?>  
+```
+
+
+### Let's do our first program
+
+```php
+<!DOCTYPE>  
+<html>  
+<body>  
+<?php  
+echo "<h2>First PHP</h2>";  
+?>  
+</body>  
+</html>  
+```
+
+```
+Output:
+
+First PHP
+```
+
+### How to run PHP programs in XAMPP?
+
+**Step 1**: Create a simple PHP program like `hello`.
+
+**Step 2**: Save the file with *`hello.php`* name in the `htdocs folder`, which resides inside the `xampp folder`.
+
+**Step 3**: Run the `XAMPP server` and start the *`Apache`* and *`MySQL`*.
+
+**Step 4**: Now, open the web browser and type *`localhost http://localhost/hello.php`* on browser window.
+
+**Step 5**: The output for the above hello.php program will be shown as the screenshot below:
+
+![localHost](https://static.javatpoint.com/phppages/images/run-php-code-in-xampp.png)
