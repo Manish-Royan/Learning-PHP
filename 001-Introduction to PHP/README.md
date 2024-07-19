@@ -132,7 +132,7 @@ First PHP
 
 **Step 2**: Save the file with *`hello.php`* name in the `htdocs folder`, which resides inside the `xampp folder`.
 
-**Step 3**: Run the `XAMPP server` and start the *`Apache`* and *`MySQL`*.
+**Step 3**: Run the `XAMPP server` and start the *`Apache`* and *`MySQL`*. *`Apache`* takes **port 80** if **port 80** is taken by other app it won;t work so make sure by going to **`Resoruce Monitor`** app on windows then click **`Listening Port`** and it will display running *PDP*.
 
 **Step 4**: Now, open the web browser and type *`localhost http://localhost/hello.php`* on browser window.
 
