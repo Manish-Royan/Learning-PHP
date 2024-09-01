@@ -5,7 +5,7 @@ PHP is a server scripting language, and a powerful tool for making dynamic and i
 PHP (Hypertext Preprocessor) is a widely-used open-source scripting language that is especially suited for web development and can be embedded into HTML. 
 
 
-### What is PHP?
+## What is PHP?
 
 * PHP is an acronym for "PHP: Hypertext Preprocessor".
 * PHP is general-purpose scripting language .
@@ -15,7 +15,7 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 * It is an open-source, interpreted, object-oriented server-side scripting language.
  
 
-### Key Features of PHP: 
+## Key Features of PHP: 
 
 #### Here are some key points to get you started:
 
@@ -39,14 +39,14 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 
 * **Session management**: PHP allows for user session management, enabling personalized experiences and storing user data across multiple page visits.
 
-### What is a PHP File?
+## What is a PHP File?
 * PHP files have extension "**.php**".
 * PHP files can contain text, *HTML*, *CSS*, *JavaScript*, and *PHP* code.
 * PHP code is executed on the server, and the result is returned to the browser as plain HTML.
 
 
 
-### What Can PHP Do?
+## What Can PHP Do?
 * PHP can generate dynamic page content.
 * PHP can create, open, read, write, delete, and close files on the server.
 * PHP can collect form data.
@@ -55,7 +55,7 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 * PHP can be used to control user-access.
 * PHP can encrypt data.
 
-### Advantages of PHP
+## Advantages of PHP
 * **Community Support**: The PHP community actively contributes to the language’s development, ensuring regular updates, security patches, and improvements.
 
 * **Cross-Platform Compatibility**: PHP is platform-independent and runs on various operating systems, including Windows, Linux, macOS, and others. This ensures compatibility across different environments.
@@ -75,7 +75,7 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 * **Web Integration**: PHP is designed specifically for web development and is embedded within HTML. It seamlessly integrates with various web technologies, facilitating the creation of dynamic and interactive web pages.
 
 
-### Disadvantages of PHP
+## Disadvantages of PHP
 * **Inconsistency**: PHP has been criticized for inconsistencies in function names and parameter orders. This can lead to confusion for developers, especially when working with a mix of older and newer functions.
 
 * **Lack of Modern Features**: Compared to newer languages, PHP may lack some modern language features. However, recent versions of PHP have introduced improvements and features to address this concern.
@@ -90,14 +90,31 @@ PHP (Hypertext Preprocessor) is a widely-used open-source scripting language tha
 
 * **Security Concerns**: If not handled properly, PHP code may be susceptible to security vulnerabilities, such as SQL injection and cross-site scripting (XSS). Developers need to be cautious and follow best practices to secure PHP applications.
 
-### What Do I Need?
+## What Do I Need?
 
 To install PHP, we will suggest you to install `AMP (Apache, MySQL, PHP)` software stack but use [XAMPP](https://www.apachefriends.org/download.html) **(Cross, Apache, MySQL, PHP, Perl)** for Cross Platform: It includes some other components too such as FileZilla, OpenSSL, Webalizer, Mercury Mail, etc. 
 
 
-### How to run PHP code?
+## Getting Started to PHP
 
-Generally, a PHP file contains`HTML` tags and some `PHP` scripting code. It is very easy to create a simple PHP example. To do so, create a file and write HTML tags + PHP code and save this file with *`.php`* extension.
+* ### First install *XAMPP*
+
+* ### CREATE A FOLDER in *XAMPP - htdocs* 
+
+    * **Step 1**: Go to **C** drive.
+
+    * **Step 2**: Locate the *`xampp`* folder and open it.
+    1IMG
+
+    * **Step 3** Locate the *`htdocs`* folder and open it.
+    2IMG
+
+    * **Step 4**: Create a folder within *`htdocs`*
+    3IMG
+
+* ### How to run PHP code?
+
+    Generally, a PHP file contains`HTML` tags and some `PHP` scripting code. It is very easy to create a simple PHP example. To do so, create a file and write *HTML tags* + *PHP code* and save this file with *`.php`* extension.
 
 #### Syntax of PHP tag:
 ```php
@@ -114,7 +131,7 @@ Generally, a PHP file contains`HTML` tags and some `PHP` scripting code. It is v
 <html>  
 <body>  
 <?php  
-echo "<h2>First PHP</h2>";  
+echo "<h2>First PHP</h2>"; //note: PHP statements end with a semicolon (;).
 ?>  
 </body>  
 </html>  
@@ -126,16 +143,17 @@ Output:
 First PHP
 ```
 
-### How to run PHP programs in XAMPP?
 
-**Step 1**: Create a simple PHP program like `hello`.
+* ### How to run PHP programs in XAMPP?
 
-**Step 2**: Save the file with *`hello.php`* name in the `htdocs folder`, which resides inside the `xampp folder`.
+    * **Step 1**: Create a simple PHP program like `hello`.
 
-**Step 3**: Run the `XAMPP server` and start the *`Apache`* and *`MySQL`*. *`Apache`* takes **port 80** if **port 80** is taken by other app it won;t work so make sure by going to **`Resoruce Monitor`** app on windows then click **`Listening Port`** and it will display running *PDP*.
+    * **Step 2**: Save the file with *`hello.php`* name in the `htdocs folder`, which resides inside the `xampp folder`.
 
-**Step 4**: Now, open the web browser and type *`localhost http://localhost/hello.php`* on browser window.
+    * **Step 3**: Run the `XAMPP server` and start the *`Apache`* and *`MySQL`*. *`Apache`* takes **port 80** if **port 80** is taken by other app it won;t work so make sure by going to **`Resoruce Monitor`** app on windows then click **`Listening Port`** and it will display running *PDP*.
 
-**Step 5**: The output for the above hello.php program will be shown as the screenshot below:
+    * **Step 4**: Now, open the web browser and type *`localhost http://localhost/hello.php`* on browser window.
+
+    * **Step 5**: The output for the above hello.php program will be shown as the screenshot below:
 
 ![localHost](https://static.javatpoint.com/phppages/images/run-php-code-in-xampp.png)
