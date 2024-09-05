@@ -157,3 +157,28 @@ There is another way to print the value of constants using `constant()` function
 ```
 constant (name)  
 ```
+
+```PHP
+<?php      
+    define("MSG", "PHP is Cool!!");  
+    echo MSG, "</br>";  
+    echo constant("MSG");  
+    //both are similar  
+?>  
+```
+#### Output
+```
+PHP is Cool!!
+PHP is Cool!!
+```
+
+## [Constant vs Variables](https://www.javatpoint.com/php-constants)
+
+|  Constant | Variables
+|:-----|:--------
+|**1. Once the constant is defined, it can never be redefined.** |**1. Once the constant is defined, it can never be redefined.**
+|**2. A constant can only be defined using define() function. It cannot be defined by any simple assignment.**|**2. A variable can be defined by simple assignment (=) operator.**
+|**3. There is no need to use the dollar ($) sign before constant during the assignment.** |**3. To declare a variable, always use the dollar ($) sign before the variable.**
+|**4. Constants do not follow any variable scoping rules, and they can be defined and accessed anywhere.** |**4. Variables can be declared anywhere in the program, but they follow variable scoping rules.**
+|**5. Constants are the variables whose values can't be changed throughout the program.** |**5. The value of the variable can be changed.**
+|**6. By default, constants are global.** |**6. Variables can be local, global, or static.**
