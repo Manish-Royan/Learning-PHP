@@ -30,7 +30,7 @@ Hello world using EcHo
 
 ## 
 ### Note: However; all variable names are case-sensitive!
-Look at the example below; only the first statement will display the value of the $color variable! This is because $color, $COLOR, and $coLOR are treated as three different variables:
+Look at the example below; only the second statement will display the value of the $color variable! This is because $color, $COLOR, and $coLOR are treated as three different variables:
 
 ```PHP
 <!DOCTYPE html>
@@ -38,9 +38,9 @@ Look at the example below; only the first statement will display the value of th
     <body>  
         <?php  
             $color = "black";  
-            echo "My car is ". $ColoR ."</br>";  
-            echo "My dog is ". $color ."</br>";  
-            echo "My Phone is ". $COLOR ."</br>";  
+            echo "My dog is ". $ColoR ."</br>";  //throws error
+            echo "My car is ". $color ."</br>";  
+            echo "My Phone is ". $COLOR ."</br>";  //throws error
         ?>  
     </body>  
 </html>  
@@ -49,8 +49,8 @@ Look at the example below; only the first statement will display the value of th
 #### Output:
 ```
 Notice: Undefined variable: ColoR in D:\xampp\htdocs\program\p2.php on line 8
-My car is
-My dog is black
+My dog is
+My car is black
 
 Notice: Undefined variable: COLOR in D:\xampp\htdocs\program\p2.php on line 10
 My Phone is
