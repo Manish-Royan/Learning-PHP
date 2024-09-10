@@ -1,0 +1,17 @@
+                            Constant vs Variables
+
+[Constant]:
+-> Once the constant is defined, it can never be redefined.
+-> A constant can only be defined using define() function. It cannot be defined by any simple assignment.	
+-> There is no need to use the dollar ($) sign before constant during the assignment.	
+-> Constants do not follow any variable scoping rules, and they can be defined and accessed anywhere.	
+-> Constants are the variables whose values can't be changed throughout the program.	
+-> By default, constants are global.	
+
+[Variables]:
+-> A variable can be undefined as well as redefined easily.
+-> A variable can be defined by simple assignment (=) operator.
+-> To declare a variable, always use the dollar ($) sign before the variable.
+-> Variables can be declared anywhere in the program, but they follow variable scoping rules.
+-> The value of the variable can be changed.
+-> Variables can be local, global, or static.
