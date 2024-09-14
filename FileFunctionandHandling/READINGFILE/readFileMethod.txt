@@ -1,0 +1,7 @@
+readFile(fileName);
+
+file_get_contents(fileName);
+
+$file = file(filePath); vardump($file);
+
+fread()
