@@ -1,0 +1,14 @@
+Ther are two ways the browser client send information to the web server.
+
+i. GET method in PHP:
+-> The GET method sends the encoded user information appended to the page request, the page and the encodeed information are seperated by '?' character.
+
+-> It build a long string that appears in the server logs (in the location browser box).
+
+-> It had restriction of sending upto 1024 character only.
+
+-> Don't use GET method in case we want to share confidential (sensitive - i.e, passwrod) information. Never use GET method if you have a password or other sensitive information to be send to the server. Since, it will show in the browser location box.
+
+-> GET can't be used to send binary data. It can't be used to share image or word document to the server.
+
+-> The data sent by GET method can be accessed using QUERY_STRING environment variable.
